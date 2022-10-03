@@ -3,7 +3,7 @@ import SearchBar from "./Searchbar";
 import { AppStyle } from "./App.styled";
 import ImageGallery from "./ImageGallery";
 import Button from "./Button";
-// import axios from "axios";
+
 import { fetchImg } from "./Api";
 import Loader from "./Loader";
 import ModalPic from "./Modal";
