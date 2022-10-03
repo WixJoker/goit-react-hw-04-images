@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const KEY = "29175258-0e972b66084e1db5719a62740"
+const KEY = "25349801-93e8f8673522f488449b0dac2"
 
    export const fetchImg = async (page, search) => {
     const response = await axios.get(`https://pixabay.com/api/?q=${search}&page=${page}
