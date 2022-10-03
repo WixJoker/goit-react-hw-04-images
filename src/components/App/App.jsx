@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import SearchBar from "components/Searchbar/Searchbar";
+import SearchBar from "./Searchbar";
 import { AppStyle } from "./App.styled";
-import ImageGallery from "components/ImageGallery/ImageGallery";
-import Button from "components/Button/Button";
+import ImageGallery from "./ImageGallery";
+import Button from "./Button";
 // import axios from "axios";
-import { fetchImg } from "components/Api/Api";
-import Loader from "components/Loader/Loader";
-import ModalPic from "components/Modal/Modal";
+import { fetchImg } from "./Api";
+import Loader from "./Loader";
+import ModalPic from "./Modal";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
