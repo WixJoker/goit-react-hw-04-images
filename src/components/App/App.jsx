@@ -41,7 +41,6 @@ export default function App() {
 
   useEffect(() => {
     window.addEventListener("keydown", hadndleKeyDown);
-    //  return () => {window.removeEventListener("keydown", hadndleKeyDown);}
   }, []);
 
  const hadndleKeyDown = e => {
